@@ -81,7 +81,7 @@ header{
     text-align: center;
     background-color: var(--primary-color);
     /* height: 2rem; */
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: white;
     padding: 0.5rem;
     border-top-left-radius: 1rem;

@@ -10,11 +10,11 @@ function translator(){
     fetch(getTranslationUrl(txtInput.value))
     .then((response) => response.json())
     .then((json) => {
+        btnTranslate.innerHTML = 'Translate'            
         if(json.success){
             json.contents.translated.forEach(element => {
                 output.innerHTML+=element
             });
-           btnTranslate.innerHTML = 'Translate'            
         }   
         else{
             throw json.error;
