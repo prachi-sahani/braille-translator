@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap');
+
+:root{
+    --primary-color : #1E40AF;
+    --secondary-color : #E5E7EB;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-color: var(--secondary-color);
+}
+
+header{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-image: url('images/background-image.svg');
+    background-size: 8rem;
+    background-blend-mode: soft-light;
+
+
+}
+
+.container-center{
+    margin: auto;
+    max-width: 800px;
+}
+
+.section{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#txt-input{
+    width: 100%;
+    min-height: 150px;
+    /* background-color: var(--secondary-color); */
+    padding: 0.75rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+#btn-translate{
+    height: 50px;
+    width: 150px;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    font-size: large;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.sub-heading{
+    /* color:var(--primary-color); */
+    text-align: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#output{
+    width: 100%;
+    min-height: 150px;
+    border: 1px solid black;
+    padding: 0.75rem;
+    background-color: white;
+    font-size: 1rem;
+    /* background-color: var(--secondary-color); */
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    /* height: 2rem; */
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-image: url('images/background-image.svg');
+    background-size: 8rem;
+    background-blend-mode: soft-light;
+}
+
+.list-no-bullet{
+    list-style: none;
+    padding-inline-start: 0;
+
+}
+
+.list-inline{
+    display: inline;
+    padding: 0.75rem;
+}
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+}
